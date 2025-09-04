@@ -42,8 +42,8 @@ export default function TentangPage() {
       </div>
 
       {/* Contoh Project 2 & 3 */}
-      <div style={{ display: "flex", padding: "2%", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-        <div style={{ backgroundColor: "rgb(112, 112, 112)", width: "48%", margin: "1%" }}>
+      <div style={{ padding: "2%" }}>
+        <div style={{ backgroundColor: "rgb(112, 112, 112)", width: "80%", margin: "2% auto", padding: "1%" }}>
           <img src="/bochi.jpg" alt="Bochi The Rock" style={{ width: "100%", height: "auto" }} />
           <ul style={{ color: "aliceblue", fontFamily: "Arial, Helvetica, sans-serif", fontSize: "large", lineHeight: 3 }}>
             <li>Judul : Bochi The Rock</li>
@@ -52,7 +52,7 @@ export default function TentangPage() {
           </ul>
         </div>
 
-        <div style={{ backgroundColor: "rgb(60, 60, 61)", width: "48%", margin: "1%" }}>
+        <div style={{ backgroundColor: "rgb(60, 60, 61)", width: "80%", margin: "2% auto", padding: "1%" }}>
           <img src="/narumi.jpg" alt="Narumi" style={{ width: "100%", height: "auto" }} />
           <ul style={{ color: "aliceblue", fontFamily: "Arial, Helvetica, sans-serif", fontSize: "large", lineHeight: 3 }}>
             <li>Judul : Narumi</li>
@@ -62,9 +62,9 @@ export default function TentangPage() {
         </div>
       </div>
 
-      {/* Karya Lainnya (hatta, frieren, ramadhan, idhul-adha, waisak) */}
-      <div style={{ display: "flex", padding: "2%", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-        <div style={{ backgroundColor: "rgb(112,112,112)", width: "48%", margin: "1%" }}>
+      {/* Karya Lainnya */}
+      <div style={{ padding: "2%" }}>
+        <div style={{ backgroundColor: "rgb(112,112,112)", width: "80%", margin: "2% auto", padding: "1%" }}>
           <img src="/hatta.jpg" alt="Moh Hatta" style={{ width: "100%", height: "auto" }} />
           <ul style={{ color: "aliceblue", fontFamily: "Arial, Helvetica, sans-serif", fontSize: "large", lineHeight: 3 }}>
             <li>Judul : Kata kata Motivasi Moh Hatta</li>
@@ -73,7 +73,7 @@ export default function TentangPage() {
           </ul>
         </div>
 
-        <div style={{ backgroundColor: "rgb(60,60,61)", width: "48%", margin: "1%" }}>
+        <div style={{ backgroundColor: "rgb(60,60,61)", width: "80%", margin: "2% auto", padding: "1%" }}>
           <img src="/frieren.jpg" alt="Frieren" style={{ width: "100%", height: "auto" }} />
           <ul style={{ color: "aliceblue", fontFamily: "Arial, Helvetica, sans-serif", fontSize: "large", lineHeight: 3 }}>
             <li>Judul : Frieren</li>
@@ -82,7 +82,7 @@ export default function TentangPage() {
           </ul>
         </div>
 
-        <div style={{ backgroundColor: "rgb(60,60,61)", width: "48%", margin: "1%" }}>
+        <div style={{ backgroundColor: "rgb(60,60,61)", width: "80%", margin: "2% auto", padding: "1%" }}>
           <img src="/ramadhan.jpeg" alt="Ramadhan" style={{ width: "100%", height: "auto" }} />
           <ul style={{ color: "aliceblue", fontFamily: "Arial, Helvetica, sans-serif", fontSize: "large", lineHeight: 3 }}>
             <li>Judul : Menyambut Ramadhan</li>
@@ -91,7 +91,7 @@ export default function TentangPage() {
           </ul>
         </div>
 
-        <div style={{ backgroundColor: "rgb(112,112,112)", width: "48%", margin: "1%" }}>
+        <div style={{ backgroundColor: "rgb(112,112,112)", width: "80%", margin: "2% auto", padding: "1%" }}>
           <img src="/idhul-adha.jpg" alt="Idhul Adha" style={{ width: "100%", height: "auto" }} />
           <ul style={{ color: "aliceblue", fontFamily: "Arial, Helvetica, sans-serif", fontSize: "large", lineHeight: 3 }}>
             <li>Judul : Idhul Adha</li>
@@ -100,7 +100,7 @@ export default function TentangPage() {
           </ul>
         </div>
 
-        <div style={{ backgroundColor: "rgb(60,60,61)", width: "48%", margin: "1%" }}>
+        <div style={{ backgroundColor: "rgb(60,60,61)", width: "80%", margin: "2% auto", padding: "1%" }}>
           <img src="/waisak.jpg" alt="Waisak" style={{ width: "100%", height: "auto" }} />
           <ul style={{ color: "aliceblue", fontFamily: "Arial, Helvetica, sans-serif", fontSize: "large", lineHeight: 3 }}>
             <li>Judul : Waisak</li>
@@ -109,7 +109,6 @@ export default function TentangPage() {
           </ul>
         </div>
       </div>
-
 
       {/* Kembali ke beranda */}
       <div style={{ marginTop: "1rem" }}>
